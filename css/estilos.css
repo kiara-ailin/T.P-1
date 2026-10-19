@@ -1,0 +1,79 @@
+/* 1. GENERALES */
+body {
+    background-color: #fcf8f2;
+    color: #2b1e1a;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+h1 {
+    color: #6b0f1a;
+    text-align: center;
+    font-size: 2.5rem;
+}
+h2, h3 {
+    color: #9e2a2b;
+    text-decoration: underline; 
+}
+h4 {
+    color: #9e2a2b;
+    text-decoration: underline;
+}
+.titulo-centrado {
+    text-align: center;
+    margin-top: 40px;
+}
+img {
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    margin: 1px auto;
+    border-radius: 8px;
+}
+iframe {
+    display: block;
+    max-width: 550px;
+    width: 100%;
+    margin: 1px auto;
+    border-radius: 8px;
+}
+.contenedor-multimedia {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 0; 
+}
+.columna {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+.lista-recetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    max-width: 600px;  
+    margin: 20px auto;
+    list-style: none;
+}
+.lista-recetas li {
+    background-color: #f4eae1; 
+    border: 1px solid #d8c3b6; 
+    border-radius: 6px;        
+    padding: 10px 15px;        
+    width: 45%;
+    box-sizing: border-box;    
+    text-align: center;        
+    list-style: none;
+}
+.lista-recetas a {
+    color: #6b0f1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+.lista-recetas a:hover {
+    text-decoration: underline;
+}
